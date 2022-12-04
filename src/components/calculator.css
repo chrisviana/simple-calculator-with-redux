@@ -1,0 +1,74 @@
+.containerCalculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    width: 700px;
+    background-color: #24ad3d;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.containerValores{
+    margin-top:1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.valores{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.containerBotoes{
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0;
+
+}
+
+.btnSomar {
+    width: 150px;
+    border-radius: 2rem;
+    height: 30px;
+    background-color: #009C64;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btnSomar:hover{
+       background-color: #00A56D;
+}
+
+.btnSubtrair {
+    width: 150px;
+    border-radius: 2rem;
+    height: 30px;
+    background-color: #00897A;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btnSubtrair:hover{
+    background-color: #009A99
+}
+
+.btnResetar {
+        width: 150px;
+    border-radius: 2rem;
+    height: 30px;
+    background-color: #FF3C64;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btnResetar:hover{
+    background-color: #e03154
+}
+
